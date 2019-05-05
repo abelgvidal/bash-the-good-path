@@ -26,9 +26,9 @@ Whenever you pass a variable to a command, you should probably quote it. Otherwi
 
 - https://github.com/koalaman/shellcheck
 
-# Resources
-
 - https://google.github.io/styleguide/shell.xml
+
+# Resources
 
 - https://github.com/awesome-lists/awesome-bash
 
