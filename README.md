@@ -8,7 +8,7 @@ This will protect you against unset variables.
 
 Using `?` expansion can protect you against unset or empty variables. This will output an error message if empty/unset and treat expansion as an error.
 
-`rm -rf "${build:?Error, variable is empty or unset}``
+`rm -rf "${build:?Error, variable is empty or unset}`
 
 `set -f`
 Disable filename expansion (globbing) upon seeing *, ?, etc. Don't use this if you rely on globbing.
